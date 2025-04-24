@@ -13,7 +13,8 @@ export async function generateNoteSummary(content: string): Promise<OpenRouterRe
       headers: {
         "Authorization": `Bearer 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`,
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://ai-note-book-next.vercel.app/",
+        "HTTP-Referer": "https://ai-note-book-next.vercel.app/notes",
+        // "HTTP-Referer": "http://localhost:3000/notes",
         "X-Title": "AI Notes" 
       },
       body: JSON.stringify({

@@ -78,7 +78,7 @@ const AddNotesModal = ({
       initial={{ opacity: 0, scale: 0.95 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.3 }}
-      className="bg-gray-900 text-white rounded-xl shadow-2xl w-full max-w-xs sm:max-w-lg md:max-w-2xl mx-4 border border-gray-800 relative flex flex-col"
+      className="bg-gray-900 text-white rounded-xl shadow-2xl w-full max-w-sm sm:max-w-lg md:max-w-2xl border border-gray-800 relative flex flex-col"
       style={{
         maxHeight: "90vh",
         height: "calc(100vh - 2rem)",

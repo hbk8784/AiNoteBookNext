@@ -9,7 +9,7 @@ const Summary = ({setSummeryToggle, content}:{setSummeryToggle: (toggle:boolean)
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.3 }}
-        className="w-full max-w-md rounded-xl bg-gradient-to-br from-gray-800 to-gray-900 p-6 shadow-2xl"
+        className="w-full max-w-lg rounded-xl bg-gradient-to-br from-gray-800 to-gray-900 p-6 shadow-2xl"
       >
         {/* Modal Header */}
         <div className="mb-4 border-b border-gray-700 pb-3">
