@@ -13,8 +13,8 @@ export async function generateNoteSummary(content: string): Promise<OpenRouterRe
       headers: {
         "Authorization": `Bearer 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`,
         "Content-Type": "application/json",
-        "HTTP-Referer": "http://localhost:3000", // Required for free tier
-        "X-Title": "AI Notes" // Required for free tier
+        "HTTP-Referer": "https://ai-note-book-next-4ikps6983-hatif-belal-khans-projects.vercel.app/",
+        "X-Title": "AI Notes" 
       },
       body: JSON.stringify({
         "model": "deepseek/deepseek-chat-v3-0324:free",
