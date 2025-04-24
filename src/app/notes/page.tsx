@@ -87,10 +87,10 @@ const Notes = () => {
 
      async function handleDelete(id:string): Promise<void>{
              
-              let confirm = window.confirm("Are you sure you want to delete?");
+              const confirm = window.confirm("Are you sure you want to delete?");
                     
               if(confirm){
-                const { data, error } = await supabase
+                const { error } = await supabase
                 .from('notes')
                 .delete()
                 .eq('id', id);
